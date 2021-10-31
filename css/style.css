@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  .header{
+    background-image: url(../images/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 105vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+
+  }
+  .header .container{
+      width: 80%;
+      margin: auto;
+color: white;
+
+    }
+.head1 .icon{
+    text-align: end;
+}
+.head1 input{
+    padding: 5px 525px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+text-align: start;
+background-color: transparent;
+color: white;
+border-bottom-color: white;
+
+}
+.head1 input::placeholder{
+    
+}
+.head2 .menular{
+    text-transform: capitalize;
+    list-style: none;
+    display: flex;
+    
+}
+.menular li{
+    margin: 15px 15px;
+}
+.head3{
+    display: flex;
+}
+
+
+
+
+
+.blok1 .word1{
+    background-color: deeppink;
+    height: 280px;
+    width: 400px;
+    text-transform: capitalize;
+}
+.blok2 .word2{
+    background-color: deepskyblue;
+    height: 280px;
+    width: 400px;
+    margin-top: -4px;
+    text-transform: capitalize;
+}
+.blok1 .word3{
+    background-color: greenyellow;
+    height: 280px;
+    width: 400px;
+    text-transform: capitalize;
+
+}
+.section{
+    background-color: rgb(65, 64, 66);
+    color: white;
+
+}
+.section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.section .container p{
+    margin: 12px 0px;
+    line-height: 22px;
+}
+.section .container button{
+    padding: 10px 30px;
+    
+}
+.section .container button:hover{
+    cursor: pointer;
+}
+.section .container p:nth-child(2){
+font-style: italic;
+}
+
+.img1 img{
+    height: 280px;
+    width: 400px;
+  }
+.section2 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+    background-color: white;
+}
+.section2-content{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0px;
+}
+.part1 i{
+    font-size: 30px;
+}
+.part1 h2{
+    text-transform: capitalize;
+    padding: 5px 0px;
+}
+.part1 p{
+    line-height: 20px;
+    padding: 5px 0px;
+}
+.part1 button{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: transparent;
+    margin-top: 40px;
+   
+}
+.centre{
+    background-image: url(../images/four.jpeg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+.centre .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+width: 50%;
+margin: auto;
+
+}
+.centre .container h1{
+padding: 120px 0px;
+text-align: center;
+}
+.centre .container button{
+    background-color: transparent;
+    color: white;
+    padding: 15px 40px;
+    cursor: pointer;
+    margin: 50px 0px;
+}
+.centre2 .container{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 40px 0px;
+
+}
+.centre2 .container img{
+    width: 300px;
+    height: 200px;
+    padding: 10px 10px;
+}
+.rasmlar .rasm10{
+    padding-top: 20px;
+}
+
+
+
+
